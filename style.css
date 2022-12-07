@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 0 30px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.164);
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+}
+
+.links ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    padding: 50px;
+}
+
+form h1{
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+form input{
+    margin-top: 25px;
+    border: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.171);
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px 110px 10px 0;
+    color: rgba(87, 87, 248, 0.705);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form label{
+    font-size: 16px;
+}
+
+form button{
+    margin-top: 25px;
+    border: none;
+    background: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.171);
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h1{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 30px;
+    text-align: center;
+ }
+
+.sessionWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+}
+
+.sessionContainer{
+    padding: 50px;
+}
+
+.sessionContainer h2{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.sessionBlock{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.sessionContainer img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.404);
+    margin-bottom: 15px;
+}
+
+.links ul li a:hover{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(189, 207, 223);
+}
+
+form a:hover{
+    color: blue;
+}
+
+form input:hover{
+    box-shadow: 2px 2px 4px 1px rgba(86, 161, 247, 0.315);
+}
+
+form button:hover{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(189, 207, 223);
+}
